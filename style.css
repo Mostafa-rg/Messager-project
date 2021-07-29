@@ -6,7 +6,8 @@
     width: 30vw;
 }
 .navbar-menu{
-    /* position: fixed !important; */
+    width: 30vw;
+    position: fixed !important;
     background-color: rgb(58,62,153) !important;
 }
 .main-search{
