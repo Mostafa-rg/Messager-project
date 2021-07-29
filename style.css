@@ -3,7 +3,9 @@
     margin: 0;
 }
 .main-menu{
+    position: relative;
     width: 30vw;
+    height: 100vh;
 }
 .navbar-menu{
     width: 30vw;
@@ -15,4 +17,11 @@
 }
 .navbar-menu{
     color: rgba(255, 255, 255, 0.5);
+}
+.chat-line{
+position: absolute;
+width: 100%;
+height: 100%;
+background-color: rgb(58,62,153);
+margin-top: 57px;
 }
