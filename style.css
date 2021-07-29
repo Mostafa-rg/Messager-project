@@ -1,0 +1,17 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+.main-menu{
+    width: 30vw;
+}
+.navbar-menu{
+    /* position: fixed !important; */
+    background-color: rgb(58,62,153) !important;
+}
+.main-search{
+    color: rgba(255, 255, 255, 0.5);
+}
+.navbar-menu{
+    color: rgba(255, 255, 255, 0.5);
+}
