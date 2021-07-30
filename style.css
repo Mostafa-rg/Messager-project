@@ -27,7 +27,7 @@ margin-top: 57px;
 }
 .story-line{
     width: 100%;
-    height: 80px;
+    height: 85px;
     /* background-color: lightcoral; */
     overflow-x: scroll;
     overflow-y: hidden;
@@ -115,4 +115,16 @@ margin-top: 57px;
 }
 .text-chat{
     color: #8084db !important;
+}
+.story-line::-webkit-scrollbar{
+    height: 5px;
+    background-color: #353A8E;
+}
+.story-line::-webkit-scrollbar-track{
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+    background-color: #353A8E;
+}
+.story-line::-webkit-scrollbar-thumb{
+    background-image: linear-gradient(to right ,#860f0f,#F23F79,#F23F79, yellow);
+    border-radius: 5px;
 }
