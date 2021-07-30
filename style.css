@@ -10,13 +10,13 @@
 .navbar-menu{
     width: 30vw;
     position: fixed !important;
-    background-color: rgb(58,62,153) !important;
+    background-color: #3A3E99 !important;
 }
 .main-search{
-    color: rgba(255, 255, 255, 0.5);
+    color: #EFF2FF;
 }
 .navbar-menu{
-    color: rgba(255, 255, 255, 0.5);
+    color: #EFF2FF;
 }
 .chat-line{
 position: absolute;
@@ -36,4 +36,83 @@ margin-top: 57px;
 .story-btn{
     height:65px;
     width: 65px;
+    border-radius: 15px !important;
+}
+.col-1{
+ background: #3A3E99;
+ height: 5em;
+ transition-duration: 0.1s;
+}
+ 
+.col-2{
+ background: #3A3E99;
+ height: 5em;
+ transition-duration: 0.1s;
+}
+ 
+.col-3{
+ background: #3A3E99;
+ height: 5em;
+ transition-duration: 0.1s;
+}
+.col-4{
+    background: #3A3E99;
+    height: 5em;
+    transition-duration: 0.1s;
+   }
+.col-5{
+    background: #3A3E99;
+    height: 5em;
+    transition-duration: 0.1s;
+   }
+
+.inbox:hover{
+    background-color: #F23F79;
+    margin-left: 5px;
+}
+.chat-img{
+    display: inline-block;
+    width: 11%;
+    height: 50px;
+    margin: 15px 2px;
+    /* background-color: seagreen; */
+}
+.chat-img > .img-circle{
+    width: 100%;
+    object-fit: cover;
+}
+.chat-id{
+    display: inline;
+    float: right;
+    width: 85%;
+    height:100%;
+    /* background-color:sienna; */
+}
+.chat-id > h6{
+    display: inline-block;
+    color: #EFF2FF;
+}
+.chat-id > span{
+    margin-left: 13em;
+    background-color: #353A8E;
+    color: #EFF2FF;
+}
+.fix-button{
+    position: fixed;
+    background-color: #F23F79;
+    width: 50px;
+    height: 50px;
+    z-index: 100001;
+    border-radius: 15px !important;
+    top: 36em;
+    left: 20em;
+}
+.fix-button::before{
+    position: absolute;
+    bottom: 5px;
+    right:12px;
+    content: url(images/plus_icon-24.png);
+}
+.text-chat{
+    color: #8084db !important;
 }
