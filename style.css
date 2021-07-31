@@ -2,6 +2,7 @@
     box-sizing: border-box;
     margin: 0;
     overflow-y: hidden;
+    font-family: Proxima Nova;
 }
 .main-menu{
     position: relative;
@@ -135,6 +136,9 @@ margin-top: 57px;
     width: 63vw;
     height: 45.1em;
     float: right;
+    background-image: url(images/boat4.jpg);
+    object-fit: cover;
+    background-repeat: no-repeat;
     /* background-color: lawngreen; */
 }
 .chatbox-menu > .chatbox{

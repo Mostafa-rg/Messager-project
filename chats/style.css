@@ -1,6 +1,7 @@
 body{
     box-sizing: border-box;
     margin: 0;
+    font-family: Proxima Nova;
 }
 .mesgs{
     position: relative;
@@ -75,4 +76,8 @@ body{
     float: right;
     padding: 0px 8px;
     border-radius: 15px;
+}
+@font-face {
+    font-family: Proxima Nova;
+    src: url(Proxima\ Nova\ Regular\ Webfont.ttf);
 }
