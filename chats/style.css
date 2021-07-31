@@ -1,0 +1,78 @@
+body{
+    box-sizing: border-box;
+    margin: 0;
+}
+.mesgs{
+    position: relative;
+    width: 100vw;
+    height: 43em;
+    /* background-color: rgb(255, 255, 0); */
+}
+.incoming_msg{
+    position: absolute;
+    top: 1em;
+    /* background-color: rgb(255, 127, 127); */
+    width: 400px;
+    padding: 0px 5px;
+}
+.mesgs > .incoming_msg > .text-msg > p{
+    color: #343434;
+}
+.my_msg{
+    position: absolute;
+    top: 8em;
+    left: 58%;
+    background-color: #989AD5;
+    width: 350px;
+    padding: 0px 5px;
+    border-radius: 15px;
+}
+.incoming_msg2{
+    position: absolute;
+    top: 16em;
+    width: 400px;
+}
+.incoming_msg2 > video{
+    width: 80%;
+    float: right;
+    border-radius: 15px;
+}
+.my_msg2{
+    position:absolute;
+    top: 31em;
+    margin-right: 8px;
+    left: 58%;
+    background-color: #989AD5;
+    width: 350px;
+    padding: 0px 5px;
+    border-radius: 15px;
+}
+.my_msg > div > p{
+    color: #F1F1FB;
+}
+.my_msg2 > div > p{
+    color: #F1F1FB;
+}
+.incoming_msg > img{
+    display: inline;
+    /* position: absolute; */
+    width: 50px;
+    border-radius: 50px;
+    float: left;
+    margin-top: 2.2em;
+}
+.incoming_msg2 > img{
+    display: inline;
+    width: 50px;
+    float: left;
+    margin: 135px 8px;
+    border-radius: 50px;
+}
+.text-msg{
+    width: 80%;
+    background-color: #F1F1FB;
+    display: inline;
+    float: right;
+    padding: 0px 8px;
+    border-radius: 15px;
+}
