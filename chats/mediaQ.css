@@ -1,0 +1,18 @@
+@media only screen and (max-width:1024px){
+    .my_msg{
+        top: 9em;
+        left: 40%;
+    }
+    .my_msg2{
+        left: 40%;
+    }   
+}
+@media only screen and (max-width:1024px){
+    .my_msg{
+        top: 9em;
+        left: 37%;
+    }
+    .my_msg2{
+        left: 37%;
+    }   
+}
