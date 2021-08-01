@@ -8,15 +8,23 @@
     position: relative;
     display: inline-block;
     width: 37vw;
-    height: 100vh;
+    height:45.1em;
 }
 .navbar-menu{
     width: 37vw;
     position: fixed !important;
     background-color: #3A3E99 !important;
+    z-index: 1000001;
+}
+.border-btn{
+    border: none !important;
 }
 .main-search{
     color: #EFF2FF;
+    transition: 0.2s;
+}
+.main-search:hover{
+    color: #afb1bb;
 }
 .navbar-menu{
     color: #EFF2FF;
@@ -40,6 +48,9 @@ margin-top: 57px;
     height:65px;
     width: 65px;
     border-radius: 15px !important;
+}
+.grid-container{
+    overflow-x: hidden !important;
 }
 .col-1{
  background: #3A3E99;
@@ -68,7 +79,6 @@ margin-top: 57px;
     height: 5em;
     transition-duration: 0.1s;
    }
-
 .inbox:hover{
     background-color: #F23F79;
     margin-left: 5px;
@@ -81,7 +91,7 @@ margin-top: 57px;
     /* background-color: seagreen; */
 }
 .chat-img > .img-circle{
-    width: 100%;
+    width: 95%;
     object-fit: cover;
 }
 .chat-id{
@@ -96,7 +106,9 @@ margin-top: 57px;
     color: #EFF2FF;
 }
 .chat-id > span{
-    margin-left: 18em;
+    margin-right: 3em;
+    margin-top: 2em;
+    float: right;
     background-color: #353A8E;
     color: #EFF2FF;
 }
@@ -109,6 +121,10 @@ margin-top: 57px;
     border-radius: 15px !important;
     top: 36em;
     left: 25em;
+    transition: 0.2s;
+}
+.fix-button:hover{
+    background-color: #c02f5d;
 }
 .fix-button::before{
     position: absolute;
@@ -136,7 +152,7 @@ margin-top: 57px;
     width: 63vw;
     height: 45.1em;
     float: right;
-    background-image: url(images/boat4.jpg);
+    background-image: url(images/fog.jpg);
     object-fit: cover;
     background-repeat: no-repeat;
     /* background-color: lawngreen; */
@@ -154,6 +170,17 @@ margin-top: 57px;
 }
 .angle, .phone, .chatbox-search{
     color: #eff2ff7a;
+    transition: 0.2s;
+}
+.chatbox-search:hover{
+ color: #EFF2FF;
+}
+.phone:hover{
+    color: #EFF2FF;
+
+}
+.angle:hover{
+    color: #EFF2FF;
 }
 .phone{
     margin-right:100px ;
@@ -167,15 +194,26 @@ margin-top: 57px;
 }
 .area{
     height: 100%;
-    width: 92%;
+    width: 90%;
     resize: none;
     font-size: 32px;
     overflow-y: hidden;
+    border-radius: 50px;
+    transition: 0.5s;
+}
+.area:focus{
+    border-radius: 0;
+    outline: none;
+    width: 92%;
 }
 .send-btn{
     width: 3.6em;
     height: 3.6em;
-    background-color: rgba(255, 255, 255, 0);
+    background-color: #ffffff00;
+}
+.send-btn:hover {
+    background-color: #ffffff1e;
+
 }
 .send-btn::before{
     content: url(images/send-icon1.png);
@@ -187,5 +225,5 @@ margin-top: 57px;
     content: url(images/paperclip-icon.png);
     position: absolute;
     bottom: 0.5em;
-    right:5.5em;
+    right:6.3em;
 }
