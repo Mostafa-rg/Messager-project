@@ -14,7 +14,7 @@
     width: 37vw;
     position: fixed !important;
     background-color: #3A3E99 !important;
-    z-index: 1000001;
+    z-index: 1001;
 }
 .border-btn{
     border: none !important;
@@ -120,7 +120,7 @@ margin-top: 57px;
     z-index: 100001;
     border-radius: 15px !important;
     top: 36em;
-    left: 25em;
+    left: 28%;
     transition: 0.2s;
 }
 .fix-button:hover{
@@ -226,4 +226,16 @@ margin-top: 57px;
     position: absolute;
     bottom: 0.5em;
     right:6.3em;
+}
+.sidebar-img{
+    width: 100%;
+    height: 20em;
+    object-fit: cover;
+}
+.sidebar-information{
+    border-left: 3px solid #00BFFE; 
+    padding-left:8px;
+}
+.sidebar{
+    z-index: 1000000000001;
 }
