@@ -1,0 +1,49 @@
+@media only screen and (max-width:747px){
+    .chatbox-menu{
+        width: 50vw;
+    }
+    .chatbox-nav{
+        width: 50vw;
+    }
+    .text-area{
+        width: 50vw;
+    }
+    .area{
+        width: 100%;
+        border-radius: 50px;
+    }
+    .area:focus{
+        width: 100%;
+    }
+    .main-menu{
+        width: 50vw;
+    }
+    .navbar-menu{
+        width: 50vw;
+    }
+    .fix-button{
+        left: 38%;
+    }
+    .chat-img > .img-circle{
+        width: 95%;
+
+    }
+}
+@media only screen and (max-width:576px){
+    .chatbox-menu{
+        display: none;
+    }
+    .main-menu{
+        width: 100vw;
+    }
+    .navbar-menu{
+        width: 100vw;
+    }
+    .fix-button{
+        left: 80%;
+    }
+    .chat-img > .img-circle{
+        width: 77%;
+
+    }
+}
