@@ -1,0 +1,120 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    font-family: proxima nova;
+    overflow-x: hidden;
+}
+.mesgs{
+    position: relative;
+    width: 100vw;
+    height: 43em;
+    /* background-color: #ffff00; */
+}
+.my_msg{
+    position: absolute;
+    top: 1em;
+    left: 55%;
+    background-color: #989AD5;
+    width: 350px;
+    padding: 0px 15px;
+    padding-top: 12px;
+    border-radius: 15px;
+}
+.my_msg, .my_msg2, .my_msg3 > p{
+    color: #F1F1FB;
+}
+.my_msg2{
+    position: absolute;
+    top: 6em;
+    left: 55%;
+    background-color: #989AD5;
+    width: 350px;
+    padding: 0px 15px;
+    padding-top: 12px;
+    border-radius: 15px;
+}
+.incoming_msg{
+    position: absolute;
+    top: 11em;
+    /* background-color: #ff7f7f; */
+    width: 400px;
+    padding: 0px 15px;
+}
+.mesgs > .incoming_msg > .text-msg > p{
+    color: #343434;
+}
+.incoming_msg > img{
+    display: inline;
+    /* position: absolute; */
+    width: 50px;
+    border-radius: 50px;
+    float: left;
+}
+.incoming_msg2 > img{
+    display: inline;
+    /* position: absolute; */
+    width: 50px;
+    border-radius: 50px;
+    float: left;
+    margin-top: 10em;
+}
+.my_msg3{
+    position: absolute;
+    top: 15em;
+    left: 55%;
+    background-color: #989AD5;
+    width: 350px;
+    padding: 0px 15px;
+    padding-top: 12px;
+    border-radius: 15px;
+}
+.text-msg{
+    width: 80%;
+    background-color: #F1F1FB;
+    display: inline;
+    float: right;
+    padding: 0px 15px;
+    padding-top: 12px;
+    border-radius: 15px;
+}
+.incoming_msg2{
+    position: absolute;
+    top: 21em;
+    /* background-color: #ff7f7f; */
+    width: 400px;
+    padding: 0px 25px;
+}
+.incoming_msg3{
+    position: absolute;
+    top: 36em;
+    left: 1em;
+    /* background-color: #ff7f7f; */
+    width: 400px;
+}
+.incoming_msg4{
+    position: absolute;
+    top: 48em;
+    left: 1em;
+    /* background-color: #ff7f7f; */
+    width: 400px;
+}
+.incoming_msg5{
+    position: absolute;
+    top: 61em;
+    left: 1em;
+    /* background-color: #ff7f7f; */
+    width: 400px;
+}
+.user-pic{
+    display: inline;
+    /* position: absolute; */
+    width: 50px;
+    border-radius: 50px;
+    float: left;
+    margin-top: 7.5em;
+}
+.web-pic{
+    width: 80%;
+    float: right;
+    border-radius: 15px;
+}

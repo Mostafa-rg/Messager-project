@@ -33,7 +33,7 @@
 position: absolute;
 width: 100%;
 height: 100%;
-background-color: rgb(58,62,153);
+background-color: #3a3e99;
 margin-top: 57px;
 }
 .story-line{
@@ -140,7 +140,7 @@ margin-top: 57px;
     background-color: #353A8E;
 }
 .story-line::-webkit-scrollbar-track{
-    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+    box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
     background-color: #353A8E;
 }
 .story-line::-webkit-scrollbar-thumb{
@@ -152,10 +152,11 @@ margin-top: 57px;
     width: 63vw;
     height: 45.1em;
     float: right;
+}
+.chatbox{
     background-image: url(images/fog.jpg);
     object-fit: cover;
     background-repeat: no-repeat;
-    /* background-color: lawngreen; */
 }
 .chatbox-menu > .chatbox{
     width: 100%;

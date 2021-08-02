@@ -1,0 +1,22 @@
+@media only screen and (max-width:1024px){
+    .my_msg{
+        left: 40% !important;
+    }
+    .my_msg2{
+        left: 40% !important;
+    }
+    .my_msg3{
+        left: 37% !important;
+    }  
+}
+@media only screen and (max-width:992px){
+    .my_msg{
+        left: 37%;
+    }
+    .my_msg2{
+        left: 37%;
+    }
+    .my_msg3{
+        left: 37%;
+    }   
+}
